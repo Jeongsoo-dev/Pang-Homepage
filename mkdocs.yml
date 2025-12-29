@@ -57,6 +57,7 @@ plugins:
 
   # Optional RSS (keep only if you installed mkdocs-rss-plugin)
   - rss:
+      use_git: false
       match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
@@ -64,5 +65,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
+
 
 
