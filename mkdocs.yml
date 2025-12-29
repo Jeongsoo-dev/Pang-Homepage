@@ -18,7 +18,21 @@ repo_url: https://github.com/Jeongsoo-dev/Pang-Homepage
 
 nav:
   - Home: index.md
-  - Blog: blog/index.md
+  - Blog:
+      - Overview: blog/index.md
+      - "2026":
+          - "01 January": blog/2026/01.md
+          - "02 February": blog/2026/02.md
+          - "03 March": blog/2026/03.md
+          - "04 April": blog/2026/04.md
+          - "05 May": blog/2026/05.md
+          - "06 June": blog/2026/06.md
+          - "07 July": blog/2026/07.md
+          - "08 August": blog/2026/08.md
+          - "09 September": blog/2026/09.md
+          - "10 October": blog/2026/10.md
+          - "11 November": blog/2026/11.md
+          - "12 December": blog/2026/12.md
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -47,3 +61,4 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
+
