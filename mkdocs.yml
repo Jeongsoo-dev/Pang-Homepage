@@ -9,12 +9,10 @@ theme:
     - navigation.top
     - navigation.sections
     - content.code.copy
-    - content.action.edit
   icon:
     repo: fontawesome/brands/github
 
 repo_url: https://github.com/Jeongsoo-dev/Pang-Homepage
-edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
@@ -35,3 +33,4 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
+
