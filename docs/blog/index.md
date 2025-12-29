@@ -1,5 +1,7 @@
-# Blog
+---
+title: Blog
+---
 
-All posts are stored under `blog/posts/`.
+Welcome to my blog.
 
-Tip: click the **+** button (bottom-right).
+New posts are in `docs/blog/posts/`.
