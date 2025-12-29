@@ -1,7 +1,5 @@
----
-title: Blog
----
+# Blog 
+This is a lightweight personal blog for notes and reflections.
 
-Welcome to my blog.
-
-New posts are in `docs/blog/posts/`.
+## Recent posts
+(Posts will appear automatically from `blog/posts/`.)
