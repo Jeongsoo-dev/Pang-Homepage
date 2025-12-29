@@ -51,6 +51,9 @@ plugins:
       archive: true
       categories: true
       tags: true
+      pagination: true
+      pagination_per_page: 10
+      blog_toc: false   # <-- 이 줄 추가 (왼쪽 Blog 자동 섹션 숨김)
 
   # Optional RSS (keep only if you installed mkdocs-rss-plugin)
   - rss:
@@ -61,4 +64,5 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
+
 
