@@ -8,6 +8,8 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.sections
+    - navigation.tabs          # <-- makes Home/Blog show under the logo (top bar)
+    - navigation.tabs.sticky   # <-- keep tabs visible
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
@@ -16,8 +18,7 @@ repo_url: https://github.com/Jeongsoo-dev/Pang-Homepage
 
 nav:
   - Home: index.md
-  - Blog:
-      - Overview: blog/index.md
+  - Blog: blog/index.md
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -26,11 +27,23 @@ extra_javascript:
 
 plugins:
   - search
+
+  # Auto blog (built into Material)
+  - blog:
+      blog_dir: blog
+      post_dir: blog/posts
+      post_url_format: "{date}/{slug}"
+      post_excerpt: required
+      archive: true
+      categories: true
+      tags: true
+
+  # Optional RSS (keep only if you installed mkdocs-rss-plugin)
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
+
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
-
