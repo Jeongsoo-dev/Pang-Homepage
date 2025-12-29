@@ -1,9 +1,9 @@
-# Jeongsoo Pang
+# Pang Homepage
 
-Welcome to my homepage.
+Hi, I’m Jeongsoo.
 
-- Research, projects, and notes
-- Travel logs
-- Blog posts
+This site is my personal blog for short notes on
+daily life, travel, study, and development logs.
 
-Click the **+** button at the bottom-right to create a new post.
+- Read the latest posts in **Blog**
+- If you want to know who I am, check **About**
