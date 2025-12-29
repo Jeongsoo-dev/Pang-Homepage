@@ -1,0 +1,37 @@
+site_name: Pang Homepage
+site_url: https://jeongsoo-dev.github.io/Pang-Homepage/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/Jeongsoo-dev/Pang-Homepage
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Blog:
+      - Overview: blog/index.md
+
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/extra.js
+
+plugins:
+  - search
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
