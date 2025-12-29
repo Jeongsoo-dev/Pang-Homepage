@@ -1,5 +1,5 @@
 site_name: Pang Homepage
-site_url: https://jeongsoo-dev.github.io/Pang-Homepage/
+site_url: https://pang-homepage.pages.dev/
 
 theme:
   name: material
@@ -7,7 +7,6 @@ theme:
   features:
     - navigation.instant
     - navigation.top
-    # - navigation.sections     # (중복 Blog 생기면 이 줄은 끄는 게 깔끔함)
     - navigation.tabs
     - navigation.tabs.sticky
     - content.code.copy
@@ -47,19 +46,10 @@ plugins:
       post_dir: blog/posts
       post_url_format: "{date}/{slug}"
       post_excerpt: required
-      archive: true
-      categories: true
-      tags: true
       pagination: true
       pagination_per_page: 10
+      # 왼쪽 사이드바에 Blog 자동 섹션 뜨는 것 숨김용
       blog_toc: false
-
-  # Cloudflare 빌드가 rss 플러그인의 git refs 처리에서 깨지는 케이스가 있어서 비활성화
-  # - rss:
-  #     use_git: false
-  #     match_path: blog/posts/.*
-  #     date_from_meta:
-  #       as_creation: date
 
   - git-revision-date-localized:
       enable_creation_date: true
